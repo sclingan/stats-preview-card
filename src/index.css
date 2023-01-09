@@ -1,13 +1,116 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*  1. Use a more-intuitive box-sizing model. */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*  2. Remove default margin  */
+* {
+  margin: 0;
 }
+
+/*  3. Allow percentage-based heights in the application */
+html, body {
+  height: 100%;
+}
+
+/*
+  Typographic tweaks!  4. Add accessible line-height  5. Improve text rendering */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*  6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*  7. Remove built-in form typography styles */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*  8. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/*  9. Create a root stacking context */
+#root, #__next {
+  isolation: isolate;
+}
+
+/* SASS variables */
+body {
+  display: grid;
+  justify-content: center;
+  background-color: hsl(233deg, 47%, 7%);
+  font-size: 0.9375rem;
+  font-family: "Inter", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-weight: 400;
+}
+
+.div--product-card {
+  background-color: hsl(244deg, 38%, 16%);
+  text-align: center;
+  max-width: 330px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+header {
+  background-color: hsl(277deg, 64%, 61%);
+}
+
+picture {
+  opacity: 0.6; /* make this darker */
+}
+
+section {
+  padding: 2rem;
+}
+
+.span--highlighted {
+  color: hsl(277deg, 64%, 61%);
+}
+
+h1 {
+  padding-block: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+
+p {
+  padding-top: 1rem;
+}
+
+.div--product-stats-container {
+  font-family: "Lexend Deca", serif;
+}
+
+.div--product-stats-container p {
+  text-transform: uppercase;
+  padding-block: 0.5rem;
+  color: hsla(0deg, 0%, 100%, 0.6);
+}
+
+.div--product-stats-container h2,
+h3,
+h4 {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=index.css.map */
