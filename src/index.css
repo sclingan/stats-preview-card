@@ -77,14 +77,15 @@ section {
 }
 
 h1 {
-  padding-block: 0.5rem;
+  padding-block: 0.3rem;
   font-size: 1.8rem;
   font-weight: 700;
   color: hsl(0deg, 0%, 100%);
+  line-height: 2rem;
 }
 
 p {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 }
 
 .div--product-stats-container {
@@ -101,7 +102,7 @@ p {
 h3,
 h4 {
   font-size: 1.5rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   color: hsl(0deg, 0%, 100%);
 }
 

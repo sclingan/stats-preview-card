@@ -90,14 +90,15 @@
   }
 
   h1 {
-    padding-block: .5rem;
+    padding-block: .3rem;
     font-size: 1.8rem;
     font-weight: $fw-700;
     color: $main-heading;
+    line-height: 2rem;
   }
 
   p {
-    padding-top: 1rem;
+    padding-top: .5rem;
   }
 
   .div--product-stats-container {
@@ -114,7 +115,7 @@
   h3,
   h4 {
     font-size: 1.5rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     color: $main-heading;
   }
 
