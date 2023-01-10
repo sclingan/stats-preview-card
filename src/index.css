@@ -128,7 +128,7 @@ h4 {
   }
   section {
     padding-top: 6rem;
-    max-width: 32.5rem;
+    max-width: 32.5rem; /* fix this, causing img to shrink */
   }
   .div--product-stats-container {
     display: flex;
