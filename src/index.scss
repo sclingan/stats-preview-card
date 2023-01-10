@@ -55,7 +55,6 @@
   $font-size: 0.9375rem;
   /* TODO: 
      fix layout of mobile, try using something other than grid
-     darken bg color of image
      adjust media querie for html picture ele to rem
   */
   body { 
@@ -71,7 +70,7 @@
   .div--product-card {
     background-color: $card-bg;
     text-align: center;
-    // max-width: 330px;
+    max-width: 20.625rem;
     border-radius: .5rem;
     overflow: hidden;
   }
@@ -81,7 +80,7 @@
   }
 
   picture {
-    opacity: 0.6; /* make this darker */
+    mix-blend-mode: multiply;
   }
 
   section {
@@ -135,19 +134,14 @@
   @media (min-width: 50rem) {
 
     .div--product-card {
-        display: grid;
-        // grid-template-columns: 550px 500px;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    header {
-        grid-column-start: 2;
+      display: flex;
+      flex-direction: row-reverse;
+      max-width: 62.8125rem;
     }
 
     section {
-        grid-column-start: 1;
-        grid-row-start: 1;
         padding-top: 6rem;
+        max-width: 32.5rem;
     }
 
     .div--product-stats-container {
