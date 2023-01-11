@@ -120,13 +120,14 @@ h4 {
   color: hsl(228deg, 45%, 44%);
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 59.375rem) { /* 50 rem */
   .div--product-card {
     display: flex;
     flex-direction: row-reverse;
     max-width: 62.8125rem;
   }
   section {
+    padding-top: 3rem;
     max-width: 32.5rem;
   }
   .div--product-stats-container {

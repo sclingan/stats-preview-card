@@ -131,7 +131,7 @@
     color: hsl(228, 45%, 44%); 
   }
 
-  @media (min-width: 50rem) {
+  @media (min-width: 59.375rem) { /* 50 rem */
 
     .div--product-card {
       display: flex;
@@ -140,7 +140,7 @@
     }
 
     section {
-        // padding-top: 6rem;
+        padding-top: 3rem;
         max-width: 32.5rem; 
     }
 
