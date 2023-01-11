@@ -32,12 +32,10 @@ Users should be able to:
 
 
 
-
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/sclingan/stats-preview-card)
+- Live Site URL: (https://sclingan.github.io/stats-preview-card)
 
 ## My process
 
@@ -53,21 +51,21 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-
+I am learning more about using the cascade in CSS to write less
+and get more out of styles. I am also getting more comfortable 
+using React to build apps.
 
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+I would like to come back to this project in the future and see
+how I could improve apon it more.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- (https://w3schools.com) - A great resource for everything web development.
+- (https://developer.mozilla.org/en-US/) - Everything you will ever need for web development information.
 
 
 ## Author
@@ -77,4 +75,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-
+Thanks to Frontend Mentor for challenging me to get better!

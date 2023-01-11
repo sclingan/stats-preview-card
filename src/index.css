@@ -42,10 +42,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* SASS variables */
-/* TODO: 
-   fix layout of mobile, try using something other than grid
-   adjust media querie for html picture ele to rem
-*/
 body {
   display: grid;
   place-content: center;
@@ -120,7 +116,7 @@ h4 {
   color: hsl(228deg, 45%, 44%);
 }
 
-@media (min-width: 59.375rem) { /* 50 rem */
+@media (min-width: 59.375rem) {
   .div--product-card {
     display: flex;
     flex-direction: row-reverse;

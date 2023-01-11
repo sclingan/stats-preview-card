@@ -53,10 +53,8 @@
   $ff-inter: 'Inter', sans-serif;
   $ff-lex: 'Lexend Deca', serif;
   $font-size: 0.9375rem;
-  /* TODO: 
-     fix layout of mobile, try using something other than grid
-     adjust media querie for html picture ele to rem
-  */
+
+  
   body { 
     display: grid;
     place-content: center;
@@ -131,7 +129,7 @@
     color: hsl(228, 45%, 44%); 
   }
 
-  @media (min-width: 59.375rem) { /* 50 rem */
+  @media (min-width: 59.375rem) { 
 
     .div--product-card {
       display: flex;
