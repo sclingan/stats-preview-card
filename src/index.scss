@@ -54,7 +54,7 @@
   $ff-lex: 'Lexend Deca', serif;
   $font-size: 0.9375rem;
 
-  
+
   body { 
     display: grid;
     place-content: center;
@@ -128,7 +128,7 @@
   .attribution a { 
     color: hsl(228, 45%, 44%); 
   }
-
+  /* Desktop */
   @media (min-width: 59.375rem) { 
 
     .div--product-card {

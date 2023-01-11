@@ -116,6 +116,7 @@ h4 {
   color: hsl(228deg, 45%, 44%);
 }
 
+/* Desktop */
 @media (min-width: 59.375rem) {
   .div--product-card {
     display: flex;

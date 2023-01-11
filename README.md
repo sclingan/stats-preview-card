@@ -60,7 +60,7 @@ using React to build apps.
 ### Continued development
 
 I would like to come back to this project in the future and see
-how I could improve apon it more.
+how I could improve upon it more.
 
 ### Useful resources
 
